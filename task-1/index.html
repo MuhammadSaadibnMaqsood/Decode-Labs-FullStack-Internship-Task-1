@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ForgeAI - An intelligent fitness companion for tracking your training execution and physical analytics.">
+    <title>ForgeAI - Smart Fitness Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <nav class="nav-container">
+            <div class="logo">Forge<span>AI</span></div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Dashboard</a></li>
+                <li><a href="#">Workouts</a></li>
+                <li><a href="#">Analytics</a></li>
+            </ul>
+            <button class="btn-primary">Get Started</button>
+        </nav>
+    </header>
+
+    <main class="main-layout">
+
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Forge Your Progress.</h1>
+                <p>An intelligent, grounded approach to tracking your training execution and physical analytics
+                    seamlessly.</p>
+                <div class="hero-actions">
+                    <button id="init-plan-btn" class="btn-primary">Initialize Plan</button>
+                    <button id="explore-btn" class="btn-secondary">Explore Blueprint</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="dashboard-grid">
+
+            <aside class="side-panel">
+                <div class="panel-card user-profile">
+                    <h3>Performance Profile</h3>
+                    <p>Current Split: Hypertrophy / Push</p>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" style="width: 74%;"></div>
+                    </div>
+                    <span class="meta-text">74% Target Volume Achieved</span>
+                </div>
+                <div class="panel-card dynamic-metrics">
+                    <h3>System Status</h3>
+                    <p id="system-status-text" class="meta-text">Sync Status: Real-time</p>
+                </div>
+            </aside>
+
+            <section class="content-grid">
+                <article class="grid-card">
+                    <div class="card-icon">⚡</div>
+                    <h2>Adaptive Generation</h2>
+                    <p>Dynamic training adjustments mapped directly to your recovery indicators and structural
+                        performance output.</p>
+                </article>
+
+                <article class="grid-card">
+                    <div class="card-icon">📊</div>
+                    <h2>Precision Analytics</h2>
+                    <p>High-fidelity data metrics translating raw execution variables into deep, actionable progress
+                        perspectives.</p>
+                </article>
+
+                <article class="grid-card">
+                    <div class="card-icon">🛡️</div>
+                    <h2>Secure Architecture</h2>
+                    <p>Your session execution metrics and tracking identity are decoupled and guarded by localized
+                        privacy protocols.</p>
+                </article>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 ForgeAI. Digital Craftsmanship designed with strict intentionality.</p>
+            <div class="footer-meta">DecodeLabs Industrial Training Kit • Milestone 1</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

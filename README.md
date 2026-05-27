@@ -1,156 +1,99 @@
-# ForgeAI - Smart Fitness Companion
+# ForgeAI - UI Interface
 
-**An intelligent, grounded approach to tracking your training execution and physical analytics seamlessly.**
+A responsive, mobile-first UI design for a fitness tracking dashboard interface.
 
 ![ForgeAI Dashboard](images/img-1.PNG)
 
-## 🎯 Overview
+## Overview
 
-ForgeAI is a modern web application designed to help fitness enthusiasts track their training progress with precision analytics and adaptive features. Built with clean, purposeful design principles, ForgeAI provides a comprehensive dashboard for monitoring your fitness journey.
+This is a UI/UX project focused on building a clean, modern interface for a fitness tracking application. The project demonstrates responsive web design principles with a mobile-first approach using vanilla HTML, CSS, and minimal JavaScript.
 
 ---
 
-## ✨ Key Features
+## Interface Sections
 
-### ⚡ Adaptive Generation
-Dynamic training adjustments mapped directly to your recovery indicators and structural performance output.
-
-### 📊 Precision Analytics
-High-fidelity data metrics translating raw execution variables into deep, actionable progress perspectives.
-
-### 🛡️ Secure Architecture
-Your session execution metrics and tracking identity are decoupled and guarded by localized privacy protocols.
+- **Navigation Header** - Sticky navigation with logo and menu links
+- **Hero Section** - Landing area with call-to-action buttons
+- **Dashboard Grid** - Side panel with performance profile and content cards
+- **Footer** - Project information and metadata
 
 ---
 
 ## 📁 Project Structure
 
 ```
-├── index.html          # Main HTML structure
-├── style.css           # Modern styling with design tokens
-├── script.js           # Interactive functionality
+├── index.html          # Main HTML markup
+├── style.css           # Styling with design tokens
+├── script.js           # Basic interactivity
 ├── README.md           # This file
 └── images/
-    ├── img-1.PNG       # Dashboard screenshot
-    └── img-2.PNG       # Additional interface preview
+    ├── img-1.PNG       # UI Screenshot
+    └── img-2.PNG       # Additional UI Preview
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🎨 Color Palette
 
-### Prerequisites
-- Any modern web browser (Chrome, Firefox, Safari, Edge)
-- No build tools or dependencies required
+The design uses a carefully selected color system:
 
-### Installation
-
-1. Clone or download the project files
-2. Open `index.html` in your web browser
-3. Click **"Initialize Plan"** to activate the execution mode
-
----
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Semantic markup and modern structure
-- **CSS3** - Custom properties (CSS Variables), Flexbox, responsive design
-- **JavaScript (Vanilla)** - Frameworkless, lightweight interactivity
-- **Google Fonts** - Montserrat & Roboto typography
+| Token | Hex Code | Usage |
+|-------|----------|-------|
+| Primary | #A5856F | Mocha Mousse - Main branding color |
+| Accent | #A0D4E0 | Ethereal Blue - Highlights & accents |
+| Background | #F2F0EA | Moonlit Grey - Page background |
+| Surface | #FFFFFF | Cards and container backgrounds |
+| Text Dark | #2B2A27 | Primary text color |
+| Text Muted | #615F5A | Secondary/muted text |
+| Border | #E1DFD9 | Dividers and borders |
 
 ---
 
-## 🎨 Design System
+## 🚀 Quick Start
 
-The project uses a carefully curated design token system:
-
-| Token | Color | Purpose |
-|-------|-------|---------|
-| Primary | #A5856F | Mocha Mousse - Grounded Stability |
-| Accent | #A0D4E0 | Ethereal Blue - Trust & Clarity |
-| Background | #F2F0EA | Moonlit Grey - Refinement |
-| Surface | #FFFFFF | Clean cards and containers |
+1. Open `index.html` in a web browser
+2. No build tools or dependencies required
+3. Fully responsive - test on mobile, tablet, and desktop viewports
 
 ---
 
-## 📱 Features Explained
+## 💻 Technical Stack
 
-### Dashboard Navigation
-- **Dashboard**: Main performance overview
-- **Workouts**: Training execution tracking
-- **Analytics**: Deep performance insights
-
-### Performance Profile
-Track your current training split and monitor target volume achievement with visual progress indicators.
-
-### System Status
-Real-time synchronization status to ensure your data is always up-to-date.
+- **HTML5** - Semantic markup
+- **CSS3** - Flexbox, CSS custom properties (variables), responsive design
+- **JavaScript** - Vanilla JS for minimal interactivity
+- **Fonts** - Google Fonts (Montserrat, Roboto)
 
 ---
 
-## 🎬 Interactive Elements
+## 📱 Responsive Design
 
-- **Initialize Plan Button**: Activates execution mode and updates system status
-- **Explore Blueprint Button**: For exploring training plans and methodologies
-- **Navigation Links**: Quick access to different sections of the application
+The UI follows a **mobile-first approach**:
 
----
+- Fluid typography using CSS `clamp()` for scalable font sizes
+- Flexible layout using Flexbox
+- Mobile-hidden navigation links that can be expanded for larger screens
+- Viewport-relative units for responsive sizing
+- Touch-friendly button sizes and spacing
 
-## 📸 Screenshots
-
-| Feature | Screenshot |
-|---------|-----------|
-| Main Interface | ![Interface](images/img-1.PNG) |
-| Application Layout | ![Layout](images/img-2.PNG) |
-
----
-
-## 💡 How It Works
-
-1. **Access the Dashboard**: Open the application to view your performance profile
-2. **Initialize Your Plan**: Click "Initialize Plan" to begin tracking
-3. **Monitor Progress**: Track your volume achievements and system status
-4. **Explore Features**: Navigate between Dashboard, Workouts, and Analytics sections
+### Breakpoints & Scaling
+- Base mobile design as the foundation
+- Progressive enhancement for larger screens
+- Responsive images in the `images/` folder
 
 ---
 
-## 🔒 Privacy & Security
+## 🎯 Project Details
 
-ForgeAI prioritizes user privacy by:
-- Using localized data storage protocols
-- Decoupling session metrics from user identity
-- Maintaining strict intentionality in data handling
-
----
-
-## 📝 License
-
-Part of the **DecodeLabs Industrial Training Kit • Milestone 1**
+**Course:** DecodeLabs Internship Training Kit - Task 1  
+**Type:** UI/UX Interface Design  
+**Scope:** Static HTML/CSS interface with basic JavaScript interactivity
 
 ---
 
-## 👨‍💻 Development Notes
+## 📝 Notes
 
-This is a frameworkless application built with vanilla HTML, CSS, and JavaScript. The modular component architecture uses CSS custom properties for easy theming and maintenance.
-
-### CSS Architecture
-- Design tokens at root level
-- Component-based styling methodology
-- Responsive fluid typography using `clamp()`
-- Mobile-first responsive design approach
-
----
-
-## 🤝 Contributing
-
-This project is part of an internship training program. For modifications or improvements, ensure all changes maintain the established design system and coding standards.
-
----
-
-## 📞 Support
-
-For issues or questions regarding ForgeAI, refer to the project documentation or contact the development team.
-
----
-
-**Built with Digital Craftsmanship and Strict Intentionality** ✨
+- This is a UI template/mockup with minimal functionality
+- JavaScript handles basic button state changes and visual updates
+- Design focuses on clean typography and color harmony
+- No backend or database integration
